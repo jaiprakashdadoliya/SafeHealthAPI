@@ -1,0 +1,5 @@
+<?php
+
+/**
+ *	ComponentSettings Helper  
+ */

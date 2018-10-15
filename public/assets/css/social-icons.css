@@ -1,0 +1,233 @@
+@font-face {
+  font-family: 'social-icons';
+  src: url('../fonts/social-iconse232.eot?99958962');
+  src: url('../fonts/social-iconse232.eot?99958962#iefix') format('embedded-opentype'),
+       url('../fonts/social-iconse232.html?99958962') format('woff2'),
+       url('../fonts/social-iconse232.woff?99958962') format('woff'),
+       url('../fonts/social-iconse232.ttf?99958962') format('truetype'),
+       url('../fonts/social-iconse232.svg?99958962#social-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'social-icons';
+    src: url('../font/social-icons.svg?99958962#social-icons') format('svg');
+  }
+}
+*/
+ 
+ .social-icons:before {
+  font-family: "social-icons";
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  padding: 1px;
+}
+ 
+.icon-51-on-social-logo:before { content: '\e800'; } /* '' */
+.icon-56-social-logo:before { content: '\e801'; } /* '' */
+.icon-500px-logo-1:before { content: '\e802'; } /* '' */
+.icon-500px-logo:before { content: '\e803'; } /* '' */
+.icon-ads-of-the-world-logo:before { content: '\e804'; } /* '' */
+.icon-ads-scuttlepad-logo:before { content: '\e805'; } /* '' */
+.icon-arte10-logo:before { content: '\e806'; } /* '' */
+.icon-ashley-madison-social-logo:before { content: '\e807'; } /* '' */
+.icon-asmallworld-logo:before { content: '\e808'; } /* '' */
+.icon-badoo-social-logotype:before { content: '\e809'; } /* '' */
+.icon-baidu-logo:before { content: '\e80a'; } /* '' */
+.icon-bananity-social-logo:before { content: '\e80b'; } /* '' */
+.icon-bebo-social-logotype:before { content: '\e80d'; } /* '' */
+.icon-behance-logo:before { content: '\e80e'; } /* '' */
+.icon-bettercodes-logo:before { content: '\e80f'; } /* '' */
+.icon-bisquits-logo:before { content: '\e810'; } /* '' */
+.icon-bitacoras-logo:before { content: '\e811'; } /* '' */
+.icon-bitacoras-symbol:before { content: '\e812'; } /* '' */
+.icon-blackplanet-logotype:before { content: '\e813'; } /* '' */
+.icon-blogbus-logo:before { content: '\e814'; } /* '' */
+.icon-blogger-logotype:before { content: '\e815'; } /* '' */
+.icon-bloson-logo:before { content: '\e816'; } /* '' */
+.icon-bola-a-logo:before { content: '\e817'; } /* '' */
+.icon-buzznet-logo:before { content: '\e818'; } /* '' */
+.icon-cafemom-logo:before { content: '\e819'; } /* '' */
+.icon-care2-logo:before { content: '\e81a'; } /* '' */
+.icon-caringbridge-logo:before { content: '\e81b'; } /* '' */
+.icon-cellufun-logo:before { content: '\e81c'; } /* '' */
+.icon-citeulike-logo:before { content: '\e81d'; } /* '' */
+.icon-classmates-logotype-symbol:before { content: '\e81e'; } /* '' */
+.icon-club-dante-social-logotype:before { content: '\e81f'; } /* '' */
+.icon-colourlovers-logo:before { content: '\e821'; } /* '' */
+.icon-coroflot:before { content: '\e822'; } /* '' */
+.icon-couchsurfing-logo:before { content: '\e823'; } /* '' */
+.icon-creattica-logo:before { content: '\e824'; } /* '' */
+.icon-dailymotion-logo:before { content: '\e826'; } /* '' */
+.icon-delicious-logotype-of-squares:before { content: '\e828'; } /* '' */
+.icon-desarrollo-web-or-web-development-logo:before { content: '\e829'; } /* '' */
+.icon-designrelated-logotype:before { content: '\e82a'; } /* '' */
+.icon-deviantart-logo:before { content: '\e82b'; } /* '' */
+.icon-digg-logo:before { content: '\e82c'; } /* '' */
+.icon-digg-logotype:before { content: '\e82d'; } /* '' */
+.icon-divoblogger-logo:before { content: '\e82e'; } /* '' */
+.icon-doodle-ly-logotype:before { content: '\e82f'; } /* '' */
+.icon-douban-logo:before { content: '\e830'; } /* '' */
+.icon-dribbble-logo:before { content: '\e831'; } /* '' */
+.icon-ebay-logo:before { content: '\e832'; } /* '' */
+.icon-etsy-logo:before { content: '\e833'; } /* '' */
+.icon-everloop-logo:before { content: '\e834'; } /* '' */
+.icon-ex-fm-logo:before { content: '\e835'; } /* '' */
+.icon-eyeem-logo:before { content: '\e836'; } /* '' */
+.icon-facebook-logo:before { content: '\e837'; } /* '' */
+.icon-fanlala-logo:before { content: '\e838'; } /* '' */
+.icon-flipkart-logo:before { content: '\e83a'; } /* '' */
+.icon-fod-social-logo:before { content: '\e83b'; } /* '' */
+.icon-fontli-logo:before { content: '\e83c'; } /* '' */
+.icon-fotki-logo:before { content: '\e83d'; } /* '' */
+.icon-fotolog-social-network-logo:before { content: '\e83e'; } /* '' */
+.icon-foursquare-logo:before { content: '\e83f'; } /* '' */
+.icon-friendster-logo:before { content: '\e840'; } /* '' */
+.icon-funny-or-die-logo:before { content: '\e841'; } /* '' */
+.icon-gaiaonline-logo:before { content: '\e842'; } /* '' */
+.icon-gather-logo:before { content: '\e843'; } /* '' */
+.icon-geni-social-logo:before { content: '\e844'; } /* '' */
+.icon-geonick-logo:before { content: '\e845'; } /* '' */
+.icon-glipho-logo:before { content: '\e846'; } /* '' */
+.icon-glogster-logo:before { content: '\e847'; } /* '' */
+.icon-google-plus-social-logotype:before { content: '\e848'; } /* '' */
+.icon-grooveshark-logotype:before { content: '\e849'; } /* '' */
+.icon-grou-ps-logo:before { content: '\e84a'; } /* '' */
+.icon-habbo-logotype-1:before { content: '\e84b'; } /* '' */
+.icon-habbo-logotype:before { content: '\e84c'; } /* '' */
+.icon-heello-logo:before { content: '\e84d'; } /* '' */
+.icon-hexun-logo:before { content: '\e84e'; } /* '' */
+.icon-hi5-social-logo:before { content: '\e84f'; } /* '' */
+.icon-hipstamatic-logo:before { content: '\e850'; } /* '' */
+.icon-hubbub-logo:before { content: '\e851'; } /* '' */
+.icon-inside-the-hotel-logotype:before { content: '\e852'; } /* '' */
+.icon-instagram-social-network-logo-of-photo-camera:before { content: '\e853'; } /* '' */
+.icon-intellectconnect-logo:before { content: '\e854'; } /* '' */
+.icon-iqyi-logo:before { content: '\e855'; } /* '' */
+.icon-itsmy-logo-1:before { content: '\e856'; } /* '' */
+.icon-itsmy-logo:before { content: '\e857'; } /* '' */
+.icon-jiepang-logotype:before { content: '\e858'; } /* '' */
+.icon-jux-logo:before { content: '\e859'; } /* '' */
+.icon-kaixin101-logotype-of-a-smiling-star:before { content: '\e85a'; } /* '' */
+.icon-kiwibox-logo:before { content: '\e85b'; } /* '' */
+.icon-ku6-logo:before { content: '\e85c'; } /* '' */
+.icon-last-fm-logo:before { content: '\e85d'; } /* '' */
+.icon-linkedin-logo:before { content: '\e85e'; } /* '' */
+.icon-meetic-logo:before { content: '\e860'; } /* '' */
+.icon-meetme-logo:before { content: '\e861'; } /* '' */
+.icon-meetup-logo:before { content: '\e862'; } /* '' */
+.icon-flixster-logo:before { content: '\e863'; } /* '' */
+.icon-meetyourfriends-logotype:before { content: '\e864'; } /* '' */
+.icon-meneame-social-network-logo-of-an-elephant:before { content: '\e865'; } /* '' */
+.icon-metacafe-logo:before { content: '\e866'; } /* '' */
+.icon-mixi-logo:before { content: '\e867'; } /* '' */
+.icon-mocospace-logo:before { content: '\e868'; } /* '' */
+.icon-my-heritage-logo:before { content: '\e869'; } /* '' */
+.icon-my-life-logo:before { content: '\e86a'; } /* '' */
+.icon-my-life-social-logo:before { content: '\e86b'; } /* '' */
+.icon-my-space-logo:before { content: '\e86c'; } /* '' */
+.icon-myfolio-logo:before { content: '\e86d'; } /* '' */
+.icon-myspace-logotype:before { content: '\e86e'; } /* '' */
+.icon-ning-social-logo:before { content: '\e86f'; } /* '' */
+.icon-nk-social-symbol:before { content: '\e870'; } /* '' */
+.icon-notasweb-logo:before { content: '\e871'; } /* '' */
+.icon-odnoklassniki-logo:before { content: '\e872'; } /* '' */
+.icon-orkut-logo:before { content: '\e873'; } /* '' */
+.icon-panamo-logo:before { content: '\e875'; } /* '' */
+.icon-path-social-logotype:before { content: '\e876'; } /* '' */
+.icon-pengyu-logotype:before { content: '\e877'; } /* '' */
+.icon-pheed-logo:before { content: '\e878'; } /* '' */
+.icon-pictify-logo:before { content: '\e879'; } /* '' */
+.icon-pinspire-logo-symbol:before { content: '\e87a'; } /* '' */
+.icon-pinstagram-logo:before { content: '\e87b'; } /* '' */
+.icon-pinterest-social-logo:before { content: '\e87c'; } /* '' */
+.icon-podio-social-logo:before { content: '\e87d'; } /* '' */
+.icon-qq-social-logo-of-a-penguin:before { content: '\e87e'; } /* '' */
+.icon-questionity-logotype:before { content: '\e87f'; } /* '' */
+.icon-qzone-logo:before { content: '\e880'; } /* '' */
+.icon-ravelry-logo-1:before { content: '\e881'; } /* '' */
+.icon-ravelry-logo:before { content: '\e882'; } /* '' */
+.icon-redalyc-logo:before { content: '\e883'; } /* '' */
+.icon-reddit-logo:before { content: '\e884'; } /* '' */
+.icon-reddit-social-logo-character:before { content: '\e885'; } /* '' */
+.icon-rendezvous-logo:before { content: '\e886'; } /* '' */
+.icon-renren-logo:before { content: '\e887'; } /* '' */
+.icon-researchgate-logo:before { content: '\e888'; } /* '' */
+.icon-reverbnation-logo:before { content: '\e889'; } /* '' */
+.icon-ryze-logo:before { content: '\e88a'; } /* '' */
+.icon-ryze-social-logo:before { content: '\e88b'; } /* '' */
+.icon-scoop-it-logo-1:before { content: '\e88c'; } /* '' */
+.icon-scoop-it-logo:before { content: '\e88d'; } /* '' */
+.icon-scribd-logo:before { content: '\e88e'; } /* '' */
+.icon-sina-logo:before { content: '\e88f'; } /* '' */
+.icon-sina-social-logo-of-an-eye:before { content: '\e890'; } /* '' */
+.icon-skyrock-logo:before { content: '\e891'; } /* '' */
+.icon-slideshare-logo:before { content: '\e892'; } /* '' */
+.icon-socialcam-logo:before { content: '\e893'; } /* '' */
+.icon-sonico-logo:before { content: '\e894'; } /* '' */
+.icon-sonico-social-logo:before { content: '\e895'; } /* '' */
+.icon-soundcloud-logo:before { content: '\e896'; } /* '' */
+.icon-spotbros-logo:before { content: '\e897'; } /* '' */
+.icon-spotify-logo:before { content: '\e898'; } /* '' */
+.icon-studivz-social-logo:before { content: '\e899'; } /* '' */
+.icon-stumbleupon-logo:before { content: '\e89a'; } /* '' */
+.icon-symbaloo-logotype:before { content: '\e89b'; } /* '' */
+.icon-tadaa-logotype:before { content: '\e89c'; } /* '' */
+.icon-tagged-logotype:before { content: '\e89d'; } /* '' */
+.icon-tagworld-logotype-symbol:before { content: '\e89e'; } /* '' */
+.icon-taringa-logo:before { content: '\e89f'; } /* '' */
+.icon-telly-social-symbol:before { content: '\e8a0'; } /* '' */
+.icon-tencent-weibo-logo:before { content: '\e8a1'; } /* '' */
+.icon-threadless-logotype:before { content: '\e8a2'; } /* '' */
+.icon-tianji-logotype-symbol:before { content: '\e8a3'; } /* '' */
+.icon-travbuddy-social-logotype:before { content: '\e8a4'; } /* '' */
+.icon-tribe-social-logotype:before { content: '\e8a5'; } /* '' */
+.icon-tripadvisor-logotype:before { content: '\e8a6'; } /* '' */
+.icon-tu-tv-logo:before { content: '\e8a7'; } /* '' */
+.icon-tudou-logo:before { content: '\e8a8'; } /* '' */
+.icon-tuenti-social-logo:before { content: '\e8a9'; } /* '' */
+.icon-tumblr-logo:before { content: '\e8aa'; } /* '' */
+.icon-tv-tag-logotype-symbol:before { content: '\e8ab'; } /* '' */
+.icon-twitpic-symbol:before { content: '\e8ac'; } /* '' */
+.icon-twitter-logo:before { content: '\e8ad'; } /* '' */
+.icon-twitter-social-logotype:before { content: '\e8ae'; } /* '' */
+.icon-twoo-logo:before { content: '\e8af'; } /* '' */
+.icon-ushi-logo:before { content: '\e8b1'; } /* '' */
+.icon-vampirefreaks-logo:before { content: '\e8b2'; } /* '' */
+.icon-viadeo-logo:before { content: '\e8b3'; } /* '' */
+.icon-viddy-logotype:before { content: '\e8b4'; } /* '' */
+.icon-vimeo-social-logo:before { content: '\e8b5'; } /* '' */
+.icon-vine-logo-1:before { content: '\e8b6'; } /* '' */
+.icon-vine-logo:before { content: '\e8b7'; } /* '' */
+.icon-vk-social-logotype:before { content: '\e8b8'; } /* '' */
+.icon-wayn-social-network-logo:before { content: '\e8b9'; } /* '' */
+.icon-weeworld-logo:before { content: '\e8ba'; } /* '' */
+.icon-weheartit-logo:before { content: '\e8bb'; } /* '' */
+.icon-weibo-social-logo:before { content: '\e8bc'; } /* '' */
+.icon-widbook-logo:before { content: '\e8bd'; } /* '' */
+.icon-wikiloc-logo:before { content: '\e8be'; } /* '' */
+.icon-wikipedia-logo:before { content: '\e8bf'; } /* '' */
+.icon-wikipedia-logotype-of-earth-puzzle:before { content: '\e8c0'; } /* '' */
+.icon-wordpress-logo:before { content: '\e8c1'; } /* '' */
+.icon-xanga-logo:before { content: '\e8c2'; } /* '' */
+.icon-xiami-social-symbol:before { content: '\e8c4'; } /* '' */
+.icon-xing-social-logotype:before { content: '\e8c5'; } /* '' */
+.icon-yelp-logo:before { content: '\e8c6'; } /* '' */
+.icon-youku-logo:before { content: '\e8c7'; } /* '' */
+.icon-yoursphere-logo:before { content: '\e8c8'; } /* '' */
+.icon-youtube-logotype:before { content: '\e8c9'; } /* '' */
+.icon-youtube-symbol:before { content: '\e8ca'; } /* '' */
+.icon-yupoo-logo:before { content: '\e8cb'; } /* '' */
+.icon-zorpia-logo:before { content: '\e8cc'; } /* '' */

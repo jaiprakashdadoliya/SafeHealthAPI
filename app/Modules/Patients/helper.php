@@ -1,0 +1,5 @@
+<?php
+
+/**
+ *	Patients Helper  
+ */

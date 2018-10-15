@@ -1,0 +1,5 @@
+<?php
+
+/**
+ *	Visits Helper  
+ */

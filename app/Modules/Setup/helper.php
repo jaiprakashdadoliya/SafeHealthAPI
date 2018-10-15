@@ -1,0 +1,5 @@
+<?php
+
+/**
+ *	Setup Helper  
+ */
